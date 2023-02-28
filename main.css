@@ -4,3 +4,201 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+html{
+    overflow-x: hidden;
+}
+
+header{
+    background-color: yellowgreen;
+    padding: 24px;
+}
+
+header input, button{
+    padding: 8px;
+}
+
+header button{
+    border-radius: 3    px;
+    border: none;
+    background-color: black;
+    color: #fff;
+}
+
+header > .container{
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+aside{
+    background-color: gray;
+    height: 100%;
+}
+
+#categories .container{
+    padding: 0 24px;
+}
+
+#categories .container h2{
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+#categories .container li{
+    padding: 8px 0;
+}
+
+#categories .container a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 85% 15%;
+}
+
+main, aside{
+    padding: 48px 0;
+}
+
+.content .container{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.categoriesList li{
+    list-style: none;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    border-radius: 10px;
+    margin: 0 8px;
+}
+
+.card img{
+    border-radius: 10px;
+}
+
+.card .description{
+    padding: 12px;
+}
+
+#highlights > .container{
+    width: 100%;
+}
+
+#highlights{
+    margin-bottom: 24px;
+}
+
+.carousel{
+    width: 100%;
+    padding: 16px;
+}
+
+.recCard{
+    margin: 0 4px;
+}
+
+.recCard img{
+    border-radius: 5px;
+}
+
+#recomendations h2{
+    margin-bottom: 16px;
+}
+
+#recomendations{
+    margin-bottom: 24px;
+}
+
+#catalog article img{
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+#catalog article{
+    border-radius: 10px;
+    background-color: gray;
+}
+
+#catalog h3, .price{
+    padding-left: 8px;
+    margin-bottom: 8px;
+}
+
+#catalog button{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 12px;
+    margin-bottom: 8px;
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    background-color: greenyellow;
+    font-weight: bold;
+}
+
+.gamesList{
+    display: grid;
+    grid-template-columns: repeat(3, 31%);
+    column-gap: 2%;
+    row-gap: 2%;
+    padding: 12px;
+}
+
+footer{
+    background-color: yellowgreen;
+    padding: 24px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+}
+
+footer .links li{
+    list-style: none;
+    display: inline;
+    margin-right: 8px;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 24px;    
+}
+
+footer .sac li{
+    display: block;
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
+footer img{
+    max-height: 42px;
+}
